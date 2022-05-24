@@ -1,5 +1,5 @@
 package com.vaccination.demo.controller;
 
-public class UserController {
+public class VaccineRegistrationController {
 
 }
