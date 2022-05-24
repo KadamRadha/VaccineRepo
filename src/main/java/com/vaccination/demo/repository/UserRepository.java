@@ -12,9 +12,9 @@ public class UserRepository {
 	@Transactionl
 	public User addUser(User user) {
 		user.setUid(null);
-		UserEntity userEntity = UserTransformUser(user);
+		userEntity userEntity = UserTransformUser(user);
 		entityManager.persist(userEntity);
-		return UserTransformUserEntity(UserEntity);
+		return UserTransformUserEntity(userEntity);
 		
 	}
 

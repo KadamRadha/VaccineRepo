@@ -1,5 +1,5 @@
 package com.vaccination.demo.controller;
 
-public class AdminController {
+public class AppointmentController {
 
 }
